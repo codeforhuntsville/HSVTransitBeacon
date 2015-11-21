@@ -5,7 +5,7 @@ originally
 Android app for reporting the current location of devise with this application installed.
 
 Written by the Code for Greenville NC CfA Brigade, it has been adapted to track the Huntsville 
-Trolley and Shuttle Buses but the Code for Huntsville CfA Brigade.
+Trolley and Shuttle Buses by the Code for Huntsville CfA Brigade.
 
 ## Dependencies
 - Development
