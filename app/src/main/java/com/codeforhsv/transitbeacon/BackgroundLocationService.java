@@ -1,4 +1,4 @@
-package com.codeforgvl.trolleytracker;
+package com.codeforhsv.transitbeacon;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -132,9 +132,9 @@ public class BackgroundLocationService extends Service implements
         }
     }
 
-    public static final String KEY_STOP = "com.codeforgvl.trolleytracker.KEY_STOP";
-    public static final String KEY_DEBUG_STRING = "com.codeforgvl.trolleytracker.KEY_DEBUG_STRING";
-    public static final String KEY_DEBUG_TIMESTAMP = "com.codeforgvl.trolleytracker.KEY_DEBUG_TIMESTAMP";
+    public static final String KEY_STOP = "com.codeforhsv.transitbeacon.KEY_STOP";
+    public static final String KEY_DEBUG_STRING = "com.codeforhsv.transitbeacon.KEY_DEBUG_STRING";
+    public static final String KEY_DEBUG_TIMESTAMP = "com.codeforhsv.transitbeacon.KEY_DEBUG_TIMESTAMP";
 
     private LocationClient mLocationClient;
     private LocationRequest mLocationRequest;

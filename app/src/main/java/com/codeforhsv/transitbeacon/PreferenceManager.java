@@ -1,10 +1,10 @@
-package com.codeforgvl.trolleytracker;
+package com.codeforhsv.transitbeacon;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.codeforgvl.trolleytracker.ui.SettingsActivity;
+import com.codeforhsv.transitbeacon.ui.SettingsActivity;
 
 /**
  * A singleton class which provides accessors and mutators for the client's 
@@ -16,18 +16,18 @@ public class PreferenceManager {
 
     public String getServerIP(Context context) {
         SharedPreferences sharedPreferences = android.preference.PreferenceManager.getDefaultSharedPreferences(context);
-        return sharedPreferences.getString(SettingsActivity.KEY_PREF_SERVER_IP, "api.yeahthattrolley.com");
+        return sharedPreferences.getString(SettingsActivity.KEY_PREF_SERVER_IP, "transittracks.herokuapp.com");
     }
 
     public String getTrolleyNumber(Context context) {
         SharedPreferences sharedPreferences = android.preference.PreferenceManager.getDefaultSharedPreferences(context);
-        return sharedPreferences.getString(SettingsActivity.KEY_PREF_TROLLEY_ID, "5");
+        return sharedPreferences.getString(SettingsActivity.KEY_PREF_TROLLEY_ID, "0");
     }
 
     public String getUser(Context context) {
         //SharedPreferences sharedPreferences = android.preference.PreferenceManager.getDefaultSharedPreferences(context);
         //return sharedPreferences.getString(SettingsActivity.KEY_PREF_USERNAME, "");
-        return "TrolleyUpdates@yeahthattrolley.com";
+        return "hsvtransit@hoparoundhuntsville.com";
     }
 
     public String getPassword(Context context) {

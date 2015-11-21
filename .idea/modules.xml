@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/App.iml" filepath="$PROJECT_DIR$/app/App.iml" />
-      <module fileurl="file://$PROJECT_DIR$/trolley-tracker-agent.iml" filepath="$PROJECT_DIR$/trolley-tracker-agent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HSVTransitBeacon.iml" filepath="$PROJECT_DIR$/HSVTransitBeacon.iml" />
     </modules>
   </component>
 </project>

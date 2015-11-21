@@ -4,10 +4,10 @@
     android:key="trolley_prefs">
     <EditTextPreference android:key="serverIP"
         android:title="Server IP"
-        android:defaultValue="api.yeahthattrolley.com"></EditTextPreference>
+        android:defaultValue="transittracks.herokuapp.com"></EditTextPreference>
     <EditTextPreference android:key="trolleyId"
         android:title="Trolley ID"
-        android:defaultValue="5"></EditTextPreference>
+        android:defaultValue="0"></EditTextPreference>
     <EditTextPreference android:key="username"
         android:enabled="false"
         android:title="User"></EditTextPreference>

@@ -1,4 +1,4 @@
-package com.codeforgvl.trolleytracker.ui;
+package com.codeforhsv.transitbeacon.ui;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -26,8 +26,8 @@ import android.view.MenuItem;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
-import com.codeforgvl.trolleytracker.BackgroundLocationService;
-import com.codeforgvl.trolleytracker.R;
+import com.codeforhsv.transitbeacon.BackgroundLocationService;
+import com.codeforhsv.transitbeacon.R;
 
 import java.util.ArrayList;
 

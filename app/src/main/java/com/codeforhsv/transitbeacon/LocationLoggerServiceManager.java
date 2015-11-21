@@ -1,4 +1,4 @@
-package com.codeforgvl.trolleytracker;
+package com.codeforhsv.transitbeacon;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;

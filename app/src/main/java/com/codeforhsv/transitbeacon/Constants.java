@@ -1,4 +1,4 @@
-package com.codeforgvl.trolleytracker;
+package com.codeforhsv.transitbeacon;
 
 public final class Constants {
 

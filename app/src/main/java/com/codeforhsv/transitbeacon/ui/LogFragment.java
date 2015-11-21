@@ -1,4 +1,4 @@
-package com.codeforgvl.trolleytracker.ui;
+package com.codeforhsv.transitbeacon.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,8 +10,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
-import com.codeforgvl.trolleytracker.PreferenceManager;
-import com.codeforgvl.trolleytracker.R;
+import com.codeforhsv.transitbeacon.PreferenceManager;
+import com.codeforhsv.transitbeacon.R;
 
 /**
  * Created by Adam on 2/13/14.

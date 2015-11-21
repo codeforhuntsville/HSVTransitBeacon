@@ -1,4 +1,4 @@
-package com.codeforgvl.trolleytracker.ui;
+package com.codeforhsv.transitbeacon.ui;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -6,10 +6,10 @@ import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.util.Log;
 
-import com.codeforgvl.trolleytracker.BackgroundLocationService;
-import com.codeforgvl.trolleytracker.Constants;
-import com.codeforgvl.trolleytracker.PreferenceManager;
-import com.codeforgvl.trolleytracker.R;
+import com.codeforhsv.transitbeacon.BackgroundLocationService;
+import com.codeforhsv.transitbeacon.Constants;
+import com.codeforhsv.transitbeacon.PreferenceManager;
+import com.codeforhsv.transitbeacon.R;
 
 /**
  * Created by Adam on 2/13/14.
